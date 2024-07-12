@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "serve": "serve -s dist",
     "start": "npm run serve",
-    "heroku-postbuild": "npm run build"
+    "heroku-prebuild": "web: npx serve -s build"
   },
   "dependencies": {
     "react": "^18.3.1",
