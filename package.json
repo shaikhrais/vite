@@ -11,7 +11,7 @@
     "serve": "serve -s dist",
     "start": "npm run serve",
 
-    "heroku-prebuild": "web: npx serve -s build"
+    "heroku-prebuild": "npm run build"
   },
   "dependencies": {
     "react": "^18.3.1",
